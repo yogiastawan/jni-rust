@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/test-rustruntest-rust",
+			"script": "run",
+			"description": "Runs this project as a JVM application",
+			"group": "application",
+			"project": "test-rust",
+			"buildFile": "/home/gihexdev00/Programming/java/test-rust/build.gradle",
+			"rootProject": "test-rust",
+			"projectFolder": "/home/gihexdev00/Programming/java/test-rust",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/test-rust",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: run"
+		},
+		{
+			"type": "gradle",
+			"id": "/home/gihexdev00/Programming/java/test-rustbuildtest-rust",
+			"script": "build",
+			"description": "Assembles and tests this project.",
+			"group": "build",
+			"project": "test-rust",
+			"buildFile": "/home/gihexdev00/Programming/java/test-rust/build.gradle",
+			"rootProject": "test-rust",
+			"projectFolder": "/home/gihexdev00/Programming/java/test-rust",
+			"workspaceFolder": "/home/gihexdev00/Programming/java/test-rust",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: build"
+		}
+	]
+}
