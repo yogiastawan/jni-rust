@@ -69,4 +69,4 @@ tasks.named<Test>("test") {
 tasks["run"].dependsOn(":native_rust:buildRust")
 tasks["build"].dependsOn(":native_rust:buildRust")
 tasks["test"].dependsOn(":native_rust:buildRust")
-tasks["clean"].dependsOn(":native_rust:buildRust")
+tasks["clean"].dependsOn(":native_rust:clean")
